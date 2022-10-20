@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilo.css" />
+    <link rel="icono" href="Iconos/Portafolio.png"/>
+    <title>Portafolio - Matias Abregú</title>
+</head>
+
+<body>
+    <header>
+        <article id="titulos">
+            <h1>¡Hola! Soy Matias Abregú</h1>
+            <h1 id="subrayado">Desarrollador Desktop - Web</h1>
+        </article>
+        <article id="imagen">
+            <img src="GIF1.gif" />
+        </article>
+    </header>
+    <nav>
+        <ul>
+            <li class="elementos"><a href="#proyectos">Proyectos</a></li>
+            <li class="elementos"><a href="#Habilidades">Habilidades</a></li>
+            <li class="elementos"><a href="#AcercaDeMi">Acerca de mi</a></li>
+            <li class="elementos"><a href="#Contactame">Contactame</a></li>
+        </ul>
+    </nav>
+
+    <section id="proyectos">
+        <script src="ScriptAirlines.js"></script>
+        <script src="ScriptMercarro.js"></script>
+        <script src="ScriptNorex.js"></script>
+        <center>
+            <article class="categorias">
+                <h1 class="titulosCaracteristicas" id="TituloProyectos">PROYECTOS</h1>
+            </article>
+        </center>
+
+        <article id="proyecto1" class="proyectos" onclick="mostrarP1()">
+            <img src="Airlines/MatiasAirlinesIMG1.png" id="ImgPresentacionAirlines" />
+            <hr>
+            <h2>Proyecto Matias Airlines</h2>
+        </article>
+
+        <article id="proyectoCompleto1">
+            <img src="Arrow.png" class="flechaIzq" onclick="mover('Izq');" />
+            <video src="Airlines/VideoMatiasAirlines.mp4" id="VideoAirlines" controls></video>
+            <img src="Arrow.png" class="flechaDer" onclick="mover('Der');" />
+            <hr>
+            <p>Matias Airlines: proyecto de reservación de vuelos, desarollado con Java, JavaScript, HTML5, CSS3 y SQL
+            </p>
+        </article>
+
+        <article id="proyecto2" class="proyectos" onclick="mostrarP2();">
+            <img src="Mercarro/MercarroIMG1.png" id="ImgPresentacionMercarro" />
+            <hr>
+            <h2>Proyecto Mercarro</h2>
+        </article>
+
+        <article id="proyectoCompleto2">
+            <img src="Arrow.png" class="flechaIzq" onclick="moverMercarro('Izq');" />
+            <video src="Mercarro/VideoMercarro.mov" id="VideoMercarro" controls></video>
+            <img src="Arrow.png" class="flechaDer" onclick="moverMercarro('Der');" />
+            <hr>
+            <p>Mercarro: proyecto de un supermercado en línea, desarollado con Java, HTML5, CSS3 y SQL</p>
+        </article>
+
+        <article id="proyecto3" class="proyectos" onclick="mostrarP3();">
+            <img src="Norex/NorexIMG1.png" id="ImgPresentacionNorex" />
+            <hr>
+            <h2>Proyecto Norex</h2>
+        </article>
+
+        <article id="proyectoCompleto3">
+            <img src="Arrow.png" class="flechaIzq" onclick="moverNorex('Izq');" />
+            <video src="Norex/VideoNorex.mp4" id="VideoNorex" controls></video>
+            <img src="Arrow.png" class="flechaDer" onclick="moverNorex('Der');" />
+            <hr>
+            <p>Norex: proyecto que sirve para encargar comida desde una interfaz, el encargo pasa a un servidor y
+                este lo guarda en el dispositivo donde se encuentra el servidor, desarollado con Java</p>
+        </article>
+    </section>
+
+    <section id="Habilidades">
+        <center>
+            <article class="categorias">
+                <h1 class="titulosCaracteristicas">Habilidades</h1>
+            </article>
+        </center>
+
+        <article>
+            <article class="Iconos">
+                <img src="Iconos/Java.png" class="imagenesSkills" />
+                <h2>Java</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/JavaScript.png" class="imagenesSkills" />
+                <h2>JavaScript (Básico)</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/C++.png" class="imagenesSkills" />
+                <h2>C++ (Básico)</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/SQL.png" class="imagenesSkills" />
+                <h2>SQL</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/HTML.png" class="imagenesSkills" />
+                <h2>HTML5</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/CSS.png" class="imagenesSkills" />
+                <h2>CSS3</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/GIT.png" class="imagenesSkills"/>
+                <h2>GIT</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/Photoshop.png" class="imagenesSkills" />
+                <h2>Photoshop</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/Vegas.png" class="imagenesSkills" />
+                <h2>Sony Vegas</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/Word.png" class="imagenesSkills" />
+                <h2>Word</h2>
+            </article>
+            <article class="Iconos">
+                <img src="Iconos/PowerPoint.png" class="imagenesSkills" />
+                <h2>PowerPoint</h2>
+            </article>
+        </article>
+    </section>
+
+    <section id="AcercaDeMi">
+        <center>
+            <article class="categorias">
+                <h1 class="titulosCaracteristicas">Acerca de mi</h1>
+            </article>
+        </center>
+
+        <article id="informacionAcerca">
+            <p>¡Hola! Soy Matías Abregú, un chico apasionado por la programación que está en busca de poder ayudar al
+                mundo
+                con sus conocimientos. Empecé con la programación a mis 14 años pero como toda persona tuve mis años en
+                la
+                que lo dejaba y otros en los que la retomaba, pero jámas de abandonarla, por el simple hecho de que me
+                gusta
+                ser disciplinado con las cosas que me propongo. Comencé con Java, luego decidí aprender algo de C++ y
+                luego me expandí
+                a SQL, HTML5, CSS3 y JavaScript. Llevo mi tiempo con el lenguaje Java y le tengo mucho aprecio porque
+                fue el primer lenguaje
+                de programación que aprendí y que me encantaría poder seguir reforzando y aprendiendo como igual me
+                encantaría poder aprender
+                más sobre otros lenguajes y poder llegar a conseguir un mayor dominio de estos.
+            </p>
+            <img src="Retrato.jpg" />
+        </article>
+    </section>
+
+    <section id="Contactame">
+        <center>
+            <article class="categorias">
+                <h1 class="titulosCaracteristicas">Contactame</h1>
+            </article>
+        </center>
+
+        <article class="Iconos">
+            <a href="https://api.whatsapp.com/send?phone=3512753590" target="_blank">
+                <img src="Iconos/Whatsapp.png" id="whats" class="imagenesContactame" />
+                <h2>Whatsapp</h2>
+            </a>
+        </article>
+        <article class="Iconos">
+            <a href="mailto:matiasabregu506@gmail.com" target="_blank">
+                <img src="Iconos/gmail.png" id="gmail" class="imagenesContactame" />
+                <h2>Gmail</h2>
+            </a>
+        </article>
+    </section>
+
+    <footer>
+        <p>Derechos reservados a Matias Abregú - ©2022</p>
+    </footer>
+</body>
+
+</html>

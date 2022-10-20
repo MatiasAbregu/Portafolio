@@ -1,0 +1,369 @@
+html {
+    font-family: 'Zen Old Mincho', serif;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    max-width: 100%;
+    background-image: linear-gradient(160deg, #FF5047, #FAFBFD);
+}
+
+#titulos {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: #FAFBFD;
+}
+
+#subrayado {
+    border-top: 2px solid #FAFBFD;
+}
+
+#titulos, #imagen {
+    display: inline-block;
+}
+
+#imagen img {
+    margin-left: 12px;
+    margin-bottom: -14px;
+    height: 8rem;
+    width: 8rem;
+}
+
+section {
+    min-height: calc(100vh - 1.3rem - 100px);
+    max-width: 100%;
+}
+
+nav{
+    max-width: 100%;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    border: 2px solid #FAFBFD;
+    padding: 0vh 0vh 0vh 62.7vw;
+    max-width: 100%;
+    background-image: linear-gradient(160deg, #FAFBFD, #FF5047);
+    list-style-type: none;
+    float: right;
+    box-shadow: 0px 6px 6px #888888;
+}
+
+.elementos {
+    border-left: 2px solid #FAFBFD;
+    padding: 10px 16px;
+    display: inline-block;
+    transition: 1s ease-in-out;
+    margin-right: -5px;
+}
+
+.elementos a {
+    color: #FAFBFD;
+    text-decoration: none;
+}
+
+.elementos:hover {
+    cursor: pointer;
+    background-color: #F6D0CC;
+    transition: 1s ease-in-out;
+}
+
+#proyectos:target{
+    animation: anim 2s;
+}
+
+#Habilidades:target{
+    animation: anim 2s;
+}
+
+#AcercaDeMi:target{
+    animation: anim 2s;
+}
+
+#Contactame:target{
+    animation: anim 2s;
+}
+
+@keyframes anim {
+    0%{
+        opacity: 0.1;
+        transform: translateY(5%);
+    }
+    20%{
+        opacity: 1;
+    }
+}
+
+#TituloProyectos{
+    margin-top: 12vh;
+}
+
+.categorias {
+    display: inline-block;
+    text-align: center;
+}
+
+.titulosCaracteristicas {
+    box-shadow: 1px 2px 4px #888888;
+    padding: 10px 10px;
+    font-size: 1.6rem;
+    background-color: #FEB5B1;
+    width: 300px;
+    color: #FAFBFD;
+    border: 2px solid #FAFBFD;
+    border-radius: 30px;
+}
+
+.proyectos{
+    margin-top: 4vh;
+    margin-left: 4vh;
+    margin-bottom: 20vh;
+    background-color: #FAFBFD;
+    border: 3px solid #FEB5B1;
+    width: 30%;
+    border-radius: 20px;
+    transition: ease-in 0.2s;
+    display: inline-block;
+}
+
+hr{
+    border: 0;
+    border-top: 2px solid #FEB5B1;
+    border-radius: 3px;
+}
+
+.proyectos h2{
+    color: #FF5047;
+    text-align: center;
+}
+
+.proyectos:hover{
+    transition: ease-out 0.2s;
+    cursor: pointer;
+    box-shadow: 0px 3px 9px #FF5047;
+}
+
+#ImgPresentacionAirlines{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#ImgPresentacionMercarro{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#ImgPresentacionNorex{
+    width: 100%;
+    height: 30vh;
+    border-radius: 15px;
+}
+
+#proyectoCompleto1{
+    margin-bottom: 3vh;
+    margin-left: 6vh;
+    text-align: center;
+    display: none;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #FAFBFD;
+    border: 2px solid #FEB5B1;
+    color: #FF5047;
+    font-size: 3vh;
+    visibility: hidden;
+}
+
+#proyectoCompleto2{
+    margin-bottom: 3vh;
+    margin-left: 6vh;
+    text-align: center;
+    display: none;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #FAFBFD;
+    border: 2px solid #FEB5B1;
+    color: #FF5047;
+    font-size: 3vh;
+    visibility: hidden;
+}
+
+#proyectoCompleto3{
+    margin-bottom: 3vh;
+    margin-left: 6vh;
+    text-align: center;
+    display: none;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #FAFBFD;
+    border: 2px solid #FEB5B1;
+    color: #FF5047;
+    font-size: 3vh;
+    visibility: hidden;
+}
+
+.flechaIzq{
+    display: inline-block;
+    width: 5vh;
+    transform: rotate(180deg);
+    margin-bottom: 14.5vh;
+    margin-right: 1vh;
+    padding: 0.3vh;
+    border-radius: 3vh;
+}
+
+.flechaDer{
+    display: inline-block;
+    width: 5vh;
+    margin-bottom: 14.5vh;
+    margin-left: 1vh;
+    padding: 0.3vh;
+    border-radius: 3vh;
+}
+
+.flechaIzq:hover{
+    cursor: pointer;
+    background-color: #CCC;
+}
+
+.flechaDer:hover{
+    cursor: pointer;
+    background-color: #CCC;
+}
+
+#proyectoCompleto1 video, #IMGAirlines{
+    max-width: 100%;
+    width: 88vh;
+    border-radius: 15px;
+}
+
+#proyectoCompleto2 video, #IMGMercarro{
+    max-width: 100%;
+    width: 88vh;
+    border-radius: 15px;
+}
+
+#proyectoCompleto3 video, #IMGNorex{
+    max-width: 100%;
+    width: 88vh;
+    border-radius: 15px;
+}
+
+#Habilidades{
+    background-color: #FF5047;
+    text-align: center;
+    padding: 6vh 0vh;
+}
+
+.Iconos{
+    display: inline-block;
+    color: #FAFBFD;
+}
+
+.Iconos a{
+    color: #FAFBFD;
+    text-decoration: none;
+}
+
+.imagenesSkills{
+    display: inline-block;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    background-color: #FAFBFD;
+    border: 3px solid #BBB;
+    border-radius: 15vh;
+    width: 50%;
+    transition: 0.3s ease-in;
+}
+
+.imagenesContactame{
+    display: inline-block;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    border: 3px solid #FFF;
+    border-radius: 15vh;
+    width: 60%;
+    transition: 0.3s ease-in;
+}
+
+#whats{
+    background-color: #77DD77;
+}
+
+#gmail{
+    background-color: #FAFBFD;
+}
+
+#disc{
+    background-color: #2B3D58;
+}
+
+.imagenesSkills:hover{
+    transition: 0.3s ease-out;
+    border-radius: 5vh;
+    box-shadow: 3px 3px 5px #666;
+}
+
+.imagenesContactame:hover{
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    border-radius: 5vh;
+    box-shadow: 3px 3px 5px #666;
+}
+
+#AcercaDeMi{
+    margin-top: 10vh;
+}
+
+#informacionAcerca{
+    margin-top: 3vh;
+}
+
+#informacionAcerca p {
+    margin: 0;
+    text-align: center;
+    font-size: 3vh;
+    padding: 3vh 3vh;
+    margin-left: 10vh;
+    float: left;
+    width: 50%;
+    color: #FAFBFD;
+    background-color: #FF5047;
+    border: 3px solid #CCC;
+    border-radius: 5vh;
+}
+
+#informacionAcerca img {
+    margin-right: 25vh;
+    float: right;
+    width: 43vh;
+    border: 3px solid #CCC;
+    border-radius: 5vh;
+}
+
+#Contactame{
+    background-color: #FF5047;
+    text-align: center;
+    margin-top: 18vh;
+}
+
+#Contactame img{
+    margin-top: 8vh;
+}
+
+footer{
+    margin: 0;
+    padding: 0.1vh 0vh;
+    background-color: #FEB5B1;
+}
+
+footer p{
+    text-decoration: underline;
+    color: #FFF;
+    font-size: 3vh;
+    text-align: center;
+}
