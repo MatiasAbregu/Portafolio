@@ -22,7 +22,8 @@ header {
     border-top: 2px solid #FAFBFD;
 }
 
-#titulos, #imagen {
+#titulos,
+#imagen {
     display: inline-block;
 }
 
@@ -38,16 +39,16 @@ section {
     max-width: 100%;
 }
 
-nav{
+nav {
+    display: flex;
     max-width: 100%;
-    width: 100%;
 }
 
 nav ul {
     margin: 0;
     border: 2px solid #FAFBFD;
-    padding: 0vh 0vh 0vh 62.7vw;
-    max-width: 100%;
+    padding: 0vh 0vh 0vh 63.56%;
+    min-width: 36.3%;
     background-image: linear-gradient(160deg, #FAFBFD, #FF5047);
     list-style-type: none;
     float: right;
@@ -73,33 +74,34 @@ nav ul {
     transition: 1s ease-in-out;
 }
 
-#proyectos:target{
+#proyectos:target {
     animation: anim 2s;
 }
 
-#Habilidades:target{
+#Habilidades:target {
     animation: anim 2s;
 }
 
-#AcercaDeMi:target{
+#AcercaDeMi:target {
     animation: anim 2s;
 }
 
-#Contactame:target{
+#Contactame:target {
     animation: anim 2s;
 }
 
 @keyframes anim {
-    0%{
+    0% {
         opacity: 0.1;
         transform: translateY(5%);
     }
-    20%{
+
+    20% {
         opacity: 1;
     }
 }
 
-#TituloProyectos{
+#TituloProyectos {
     margin-top: 12vh;
 }
 
@@ -119,7 +121,7 @@ nav ul {
     border-radius: 30px;
 }
 
-.proyectos{
+.proyectos {
     margin-top: 4vh;
     margin-left: 4vh;
     margin-bottom: 20vh;
@@ -131,45 +133,44 @@ nav ul {
     display: inline-block;
 }
 
-hr{
+hr {
     border: 0;
     border-top: 2px solid #FEB5B1;
     border-radius: 3px;
 }
 
-.proyectos h2{
+.proyectos h2 {
     color: #FF5047;
     text-align: center;
 }
 
-.proyectos:hover{
+.proyectos:hover {
     transition: ease-out 0.2s;
     cursor: pointer;
     box-shadow: 0px 3px 9px #FF5047;
 }
 
-#ImgPresentacionAirlines{
+#ImgPresentacionAirlines {
     width: 100%;
     border-radius: 15px;
 }
 
-#ImgPresentacionMercarro{
+#ImgPresentacionMercarro {
     width: 100%;
     border-radius: 15px;
 }
 
-#ImgPresentacionNorex{
+#ImgPresentacionNorex {
     width: 100%;
-    height: 30vh;
     border-radius: 15px;
 }
 
-#proyectoCompleto1{
+#proyectoCompleto1 {
     margin-bottom: 3vh;
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 50%;
+    width: 10%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -178,12 +179,12 @@ hr{
     visibility: hidden;
 }
 
-#proyectoCompleto2{
+#proyectoCompleto2 {
     margin-bottom: 3vh;
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 50%;
+    width: 10%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -192,12 +193,12 @@ hr{
     visibility: hidden;
 }
 
-#proyectoCompleto3{
+#proyectoCompleto3 {
     margin-bottom: 3vh;
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 50%;
+    width: 10%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -206,7 +207,7 @@ hr{
     visibility: hidden;
 }
 
-.flechaIzq{
+.flechaIzq {
     display: inline-block;
     width: 5vh;
     transform: rotate(180deg);
@@ -216,7 +217,7 @@ hr{
     border-radius: 3vh;
 }
 
-.flechaDer{
+.flechaDer {
     display: inline-block;
     width: 5vh;
     margin-bottom: 14.5vh;
@@ -225,51 +226,54 @@ hr{
     border-radius: 3vh;
 }
 
-.flechaIzq:hover{
+.flechaIzq:hover {
     cursor: pointer;
     background-color: #CCC;
 }
 
-.flechaDer:hover{
+.flechaDer:hover {
     cursor: pointer;
     background-color: #CCC;
 }
 
-#proyectoCompleto1 video, #IMGAirlines{
+#proyectoCompleto1 video,
+#IMGAirlines {
     max-width: 100%;
     width: 88vh;
     border-radius: 15px;
 }
 
-#proyectoCompleto2 video, #IMGMercarro{
+#proyectoCompleto2 video,
+#IMGMercarro {
     max-width: 100%;
     width: 88vh;
     border-radius: 15px;
 }
 
-#proyectoCompleto3 video, #IMGNorex{
+#proyectoCompleto3 video,
+#IMGNorex {
     max-width: 100%;
     width: 88vh;
     border-radius: 15px;
 }
 
-#Habilidades{
+#Habilidades {
     background-color: #FF5047;
     text-align: center;
     padding: 6vh 0vh;
 }
 
-.Iconos{
+.Iconos {
     display: inline-block;
     color: #FAFBFD;
 }
 
-.Iconos a{
+.Iconos a {
     color: #FAFBFD;
     text-decoration: none;
 }
 
-.imagenesSkills{
+.imagenesSkills {
     display: inline-block;
     margin-top: 3vh;
     margin-left: 3vh;
@@ -280,7 +284,7 @@ hr{
     transition: 0.3s ease-in;
 }
 
-.imagenesContactame{
+.imagenesContactame {
     display: inline-block;
     margin-top: 3vh;
     margin-left: 3vh;
@@ -290,37 +294,38 @@ hr{
     transition: 0.3s ease-in;
 }
 
-#whats{
+#whats {
     background-color: #77DD77;
 }
 
-#gmail{
+#gmail {
     background-color: #FAFBFD;
 }
 
-#disc{
+#disc {
     background-color: #2B3D58;
 }
 
-.imagenesSkills:hover{
+.imagenesSkills:hover {
     transition: 0.3s ease-out;
     border-radius: 5vh;
     box-shadow: 3px 3px 5px #666;
 }
 
-.imagenesContactame:hover{
+.imagenesContactame:hover {
     cursor: pointer;
     transition: 0.3s ease-out;
     border-radius: 5vh;
     box-shadow: 3px 3px 5px #666;
 }
 
-#AcercaDeMi{
+#AcercaDeMi {
     margin-top: 10vh;
 }
 
-#informacionAcerca{
+#informacionAcerca {
     margin-top: 3vh;
+    display: flex;
 }
 
 #informacionAcerca p {
@@ -338,30 +343,27 @@ hr{
 }
 
 #informacionAcerca img {
-    margin-right: 25vh;
+    margin-left: 15vh;
     float: right;
     width: 43vh;
     border: 3px solid #CCC;
     border-radius: 5vh;
 }
 
-#Contactame{
+#Contactame {
+    min-height: auto;
     background-color: #FF5047;
     text-align: center;
     margin-top: 18vh;
 }
 
-#Contactame img{
-    margin-top: 8vh;
-}
-
-footer{
+footer {
     margin: 0;
     padding: 0.1vh 0vh;
     background-color: #FEB5B1;
 }
 
-footer p{
+footer p {
     text-decoration: underline;
     color: #FFF;
     font-size: 3vh;
