@@ -170,7 +170,7 @@ hr {
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 10%;
+    width: 30%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -184,7 +184,7 @@ hr {
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 10%;
+    width: 30%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -198,7 +198,7 @@ hr {
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 10%;
+    width: 30%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -345,7 +345,7 @@ hr {
 #informacionAcerca img {
     margin-left: 15vh;
     float: right;
-    width: 43vh;
+    width: 50vh;
     border: 3px solid #CCC;
     border-radius: 5vh;
 }
