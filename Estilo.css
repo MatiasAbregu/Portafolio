@@ -170,7 +170,7 @@ hr {
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 30%;
+    width: 50%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -184,7 +184,7 @@ hr {
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 30%;
+    width: 50%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -198,7 +198,7 @@ hr {
     margin-left: 6vh;
     text-align: center;
     display: none;
-    width: 30%;
+    width: 50%;
     border-radius: 20px;
     background-color: #FAFBFD;
     border: 2px solid #FEB5B1;
@@ -331,7 +331,7 @@ hr {
 #informacionAcerca p {
     margin: 0;
     text-align: center;
-    font-size: 3vh;
+    font-size: 3.5vh;
     padding: 3vh 3vh;
     margin-left: 10vh;
     float: left;
@@ -343,9 +343,9 @@ hr {
 }
 
 #informacionAcerca img {
-    margin-left: 15vh;
+    margin-left: 10vh;
     float: right;
-    width: 50vh;
+    width: 60vh;
     border: 3px solid #CCC;
     border-radius: 5vh;
 }
